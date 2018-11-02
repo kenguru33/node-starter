@@ -1,0 +1,31 @@
+{
+  "name": "node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "jest",
+    "lint": "standard",
+    "dev": "nodemon --watch ./src src/app.js"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "automock": false,
+    "verbose": true
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.5",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {}
+}
