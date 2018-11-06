@@ -1,0 +1,1 @@
+docker run -it -w=/home/node/app --user node --rm --volume $PWD:/home/node/app node npm install
