@@ -7,7 +7,7 @@
     "start": "node ./src/app.js",
     "test": "jest",
     "lint": "standard",
-    "dev": "nodemon --watch ./src src/app.js"
+    "dev": "nodemon -L --watch ./src src/app.js"
   },
   "jest": {
     "testEnvironment": "node",
