@@ -1,4 +1,4 @@
-# A very simple node starter project
+# A very simple node starter project configured for testing with jest and wallaby 
 
 # Run in docker environment
 ### Install node modules
